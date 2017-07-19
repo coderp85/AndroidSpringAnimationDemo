@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PhysicsBasedAnimations</string>
+    <string name="action_settings">settings</string>
+    <string name="action_custom">Custom Demo</string>
+    <string name="action_chained_spring">Chained Spring Demo</string>
+    <string name="work_in_progress">Work In Progress...</string>
+    <string name="spring_animation_demo">Spring Animation Demo</string>
+</resources>

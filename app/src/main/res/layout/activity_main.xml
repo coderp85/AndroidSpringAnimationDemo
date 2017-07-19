@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crimsonw.physicsbasedanimations.MainActivity"
+    android:background="@color/background">
+
+
+    <ImageView
+        android:id="@+id/midObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/midObject"
+        android:text="Medium"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/rightObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="visible"
+        android:layout_toRightOf="@id/midObject"
+        android:layout_toEndOf="@id/midObject"
+        android:layout_margin="16dp"/>
+
+    <ImageView
+        android:id="@+id/leftObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="visible"
+        android:layout_toLeftOf="@id/midObject"
+        android:layout_toStartOf="@id/midObject"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startButton"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:padding="4dp"
+        android:text="START"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="4dp"
+        android:text="RESET"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
