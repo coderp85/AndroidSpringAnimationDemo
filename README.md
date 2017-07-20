@@ -14,11 +14,13 @@ The velocity of the animation will be drive by these two parameters. With that s
 ## Fixed Velocity
 In this demo, a fixed start velocity is defined. And the three bots have in been assigned different damping ratios but same stiffness level.
 
-###High Bounce and Low Stiffness
+### High Bounce and Low Stiffness
 
-###Middle Bot: Medium Bounce and Low Stiffness
+![alt text](https://www.dropbox.com/s/00ipfqr9xydpal1/videotogif_2017.07.20_11.14.40.gif?dl=1)
 
-###Right Both Low Bounce and Low Stiffness
+### Middle Bot: Medium Bounce and Low Stiffness
+
+### Right Both Low Bounce and Low Stiffness
 
 ## Gesture Driven Start velocity
 
